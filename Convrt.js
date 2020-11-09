@@ -1,4 +1,4 @@
-(function(global, $){
+(function(global){
     
     //Private variables
     var lengthUnits = ["nm","um","mm", "cm","m", "km", "mi","yd","ft","in","nmi"];
@@ -216,4 +216,4 @@
     // Attach our object to the global window
     global.cnvr$ = global.Convrt = Convrt;
 
-}(window, jQuery));
+}(window));
